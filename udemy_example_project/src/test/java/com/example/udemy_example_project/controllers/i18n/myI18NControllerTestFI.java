@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-@ActiveProfiles("FI")
+@ActiveProfiles({"FI", "development"})
 @SpringBootTest
 class myI18NControllerTestFI {
     @Autowired
